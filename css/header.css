@@ -4,6 +4,13 @@ body{
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Noto Sans KR";
+  font-weight: bold;
+}
+
 .container {
   display: flex;
   margin: 0 auto;
@@ -12,17 +19,19 @@ body{
 .logo-image{
   width: 150px;
   height: 50px;
+  margin-top: 2px;
 }
 
 .login-image{
   width: 35px;
   height: 35px;
+  margin-top: 4px;
 }
 
 .navbar{
   display: flex;
   flex-grow:0;
-  background: #ffffff;
+  background: white;
   width: 1180px;
   height: 70px;
   align-items: center;
@@ -42,4 +51,23 @@ body{
   #aisdeLeft, #aisdeRight {
   display:none;
   }
+}
+
+.leftmenu{
+  display: flex;
+  float: left;
+  align-items: center;
+ 
+}
+
+.tab {
+  display: flex;
+  float: left;
+  margin-left: 710px;
+}
+
+.menu{
+  font-size: 14px;
+  margin-right: 30px;
+  list-style-type: none;
 }
