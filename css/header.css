@@ -17,15 +17,18 @@ a {
 }
 
 .logo-image{
-  width: 150px;
-  height: 50px;
+  width: 170px;
+  height: 56px;
+  margin-left: 30px;
   margin-top: 2px;
 }
 
 .login-image{
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   margin-top: 4px;
+  margin-left: 10px;
+  margin-right: 30px;
 }
 
 .navbar{
@@ -33,7 +36,7 @@ a {
   flex-grow:0;
   background: white;
   width: 1180px;
-  height: 70px;
+  height: 75px;
   align-items: center;
   justify-content: space-between;
 }
@@ -63,11 +66,11 @@ a {
 .tab {
   display: flex;
   float: left;
-  margin-left: 710px;
+  margin-left: 680px;
 }
 
 .menu{
-  font-size: 14px;
+  font-size: 15px;
   margin-right: 30px;
   list-style-type: none;
 }
