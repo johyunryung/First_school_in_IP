@@ -13,3 +13,48 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.banner-text{
+  position: absolute;
+  font-family: "Noto Sans KR";
+  font-weight: bold;
+  font-size: 44pt;
+  color: #007b4d;
+  letter-spacing: 1px;
+  top: 327px;
+  left: 364px;
+}
+
+#use-button{
+  position: absolute;
+  background-color: #007b4d;
+  border: transparent;
+  border-radius: 20px;
+  width: 170px;
+  height: 60px;
+  font-family: "Noto Sans KR";
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 16pt;
+  margin-top: 70px;
+  top: 450px;
+  left: 369px;
+}
+
+#shortcuts-button{
+  position: absolute;
+  background-color: #007b4d;
+  border: transparent;
+  border-radius: 20px;
+  width: 170px;
+  height: 60px;
+  font-family: "Noto Sans KR";
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 16pt;
+  margin-top: 70px;
+  top: 450px;
+  left: 567px;
+}
