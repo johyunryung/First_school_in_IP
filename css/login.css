@@ -1,0 +1,35 @@
+.textbox{
+  position: absolute;
+  display: block;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0px 27px 2px #f4f4f4;
+  text-align: center;
+  width: 940px;
+  height: 420px;
+  top: 234px;
+  margin-left: 486px;
+}
+
+.character{
+  position: absolute;
+  top: 133px;
+  left: 1215px;
+}
+
+.character-image{
+  width: 346px;
+  height: 515px;
+}
+
+.back{
+  position: absolute;
+  top: 630px;
+  opacity: 0.4;
+}
+
+.back-image{
+  width: 2009px;
+  height: 577px;
+}
+
