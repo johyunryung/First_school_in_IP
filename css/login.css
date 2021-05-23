@@ -1,35 +1,103 @@
+@font-face{
+  src: url("font/NotoSansCJKKr-Bold.otf");
+  font-family: noto;
+}
+
 .textbox{
-  position: absolute;
-  display: block;
-  background-color: white;
+  background-color: wheat;
   border-radius: 20px;
-  box-shadow: 0px 0px 27px 2px #f4f4f4;
+  box-shadow: 2px 1px 27px 2px #f4f4f4;
   text-align: center;
   width: 940px;
   height: 420px;
-  top: 234px;
+  margin-top: 234px;
   margin-left: 486px;
 }
 
-.character{
-  position: absolute;
-  top: 133px;
-  left: 1215px;
+.text-login{
+  position: absolute; 
+  font-family: noto;
+  width: 163px;
+  height: 115px;
+  font-size: 60px;
+  font-weight: bold;
+  top: 376px;
+  left: 853px;
+  color: black;
 }
 
-.character-image{
+.text-explain{
+  position: absolute;
+  font-family: noto;
+  font-weight: bold;
+  width: 437px;
+  height: 60px;
+  font-size: 20px;
+  top: 532px;
+  left: 780px;
+  color: black;
+}
+
+.btn-box{
+  position: absolute; 
+  background-color: #19885e;
+  border-radius: 15px;
+  width: 510px;
+  height: 70px;
+  top: 584px;
+  left: 686px;
+}
+
+.circle-class{
+  position: absolute;
+}
+
+#btn-circle{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.google-class{
+  position: absolute;
+}
+
+#btn-google{
+  position: relative;
+  width: 35px;
+  height: 35px;
+  margin-top: 16px;
+  margin-left: 28px;
+}
+
+.text-google{
+  position: absolute;
+  font-family: noto;
+  font-weight: 600;
+  width: 437px;
+  height: 60px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 130px;
+  color: white;
+}
+
+
+.character{
+  position: absolute;
+  top: 217px; 
   width: 346px;
   height: 515px;
+  left: 1215px;
 }
 
 .back{
   position: absolute;
   top: 630px;
-  opacity: 0.4;
-}
-
-.back-image{
   width: 2009px;
   height: 577px;
+  opacity: 0.4;
 }
 
