@@ -26,6 +26,52 @@
   left: 364px;
 }
 
+.map-small-banner-title{
+  position: absolute;
+  white-space: nowrap;
+  font-family: "Noto Sans KR";
+  font-weight: bold;
+  font-size: 44pt;
+  color: white;
+  letter-spacing: 1px;
+  top: 92px;
+  left: 850px;
+}
+
+.map-small-banner-text{
+  position: absolute;
+  white-space: nowrap;
+  font-family: "Noto Sans KR";
+  font-size: 20pt;
+  color: white;
+  letter-spacing: 1px;
+  top: 225px;
+  left: 650px;
+}
+
+.small-banner-title{
+  position: absolute;
+  white-space: nowrap;
+  font-family: "Noto Sans KR";
+  font-weight: bold;
+  font-size: 44pt;
+  color: white;
+  letter-spacing: 1px;
+  top: 92px;
+  left: 880px;
+}
+
+.small-banner-text{
+  position: absolute;
+  white-space: nowrap;
+  font-family: "Noto Sans KR";
+  font-size: 20pt;
+  color: white;
+  letter-spacing: 1px;
+  top: 225px;
+  left: 742px;
+}
+
 #use-button{
   position: absolute;
   background-color: #007b4d;
