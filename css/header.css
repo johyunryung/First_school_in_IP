@@ -23,14 +23,6 @@ a {
   margin-top: 2px;
 }
 
-.login-image{
-  width: 30px;
-  height: 30px;
-  margin-top: 4px;
-  margin-left: 10px;
-  margin-right: 30px;
-}
-
 .navbar{
   display: flex;
   flex-grow:0;
