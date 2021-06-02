@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
         $connect = mysqli_connect("localhost", "bord", "root", "mirim2") or die("fail");
                 $number = $_POST[number];                      //Writer
                 $categori = $_POST[categori];                        //Password
@@ -27,4 +27,4 @@
                 }
  
                 mysqli_close($connect);
-?>
+?> -->
